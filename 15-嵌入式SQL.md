@@ -16,7 +16,7 @@
 
 **存储过程方式（Approach of Stored Procedures）**
 
-- SQL 标准包含一种定义*存储过程（stored procedures）*的语言，它可以：
+- SQL 标准包含一种定义*存储过程（stored procedures）* 的语言，它可以：
   1. 拥有参数和返回值
   2. 使用局部变量、if 语句、循环等
   3. 执行 SQL 查询
@@ -25,7 +25,7 @@
   - 由解释器调用
   - 由 SQL 查询调用
   - 由另一个存储过程调用
-  - 作为*触发器（trigger）*执行的动作
+  - 作为*触发器（trigger）* 执行的动作
 - 这不是一种非常标准的方式，因为不同的 DBMS 为存储过程定义了不同的私有语言
   - 例如：PostgreSQL 使用 PL/pgSQL
 - 这种方式效率最高，但代码不可移植

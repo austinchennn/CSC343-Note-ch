@@ -52,7 +52,7 @@ create domain Campus as varchar(4)
 **默认值的语义**
 
 - 未指定值时，会使用该类型的默认值
-- 这与**类型默认值（type default）**不同，后者适用于*任何*表中该类型的*每一*列
+- 这与**类型默认值（type default）** 不同，后者适用于*任何*表中该类型的*每一*列
 
 **主键约束（Primary Key Constraints）**
 
