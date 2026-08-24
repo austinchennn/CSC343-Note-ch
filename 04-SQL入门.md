@@ -16,11 +16,11 @@ FROM Course        -- 从 Course 表中
 WHERE dept = 'CSC'; -- 只选择满足条件的行
 ```
 
-- `WHERE` 相当于关系代数中的 $\sigma$
+- `WHERE` 相当于关系代数中的 `σ`
   - 可以使用逻辑运算符 `=, <, >, <=, >=, !=, <>`
   - `!=` 和 `<>` 都表示"不等于"
   - 可以使用布尔运算符 `AND, OR, NOT`
-- `SELECT` 相当于 $\Pi$
+- `SELECT` 相当于 `Π`
 
 **笛卡尔积**
 
@@ -36,7 +36,7 @@ SELECT e.name, d.name
 FROM Employee e, Department d;
 ```
 
-- 相当于关系代数中的 $\rho$
+- 相当于关系代数中的 `ρ`
 - 自连接（self-join）时*必须*重命名
 
 **SELECT 子句中的通配符**
